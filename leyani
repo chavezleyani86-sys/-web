@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <style>
+        h1 {
+            color: rgb(0, 4, 255);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina</title>
+    <style>
+        .rectangulo {
+            height: 40px;
+            width: 40px;
+            background-color: #00c2a8;
+            border: 1px solid pink;
+        }
+        .circulo {
+            height: 40px;
+            width: 40px;
+            background-color: #ff6b6b;
+            border-radius: 50%; 
+            position: absolute;
+            top: 400px;
+            left: 25px; 
+            
+        }
+        .cuadrado{
+            position: relative;
+            top: 25px;
+            left: 25px;
+            background-color: #ffd93d;
+            height: 50px; 
+            width: 50px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    "Hola Mundo"
+
+<h1>Mi primera pagina web</h1>
+
+<span style="display: block;"> span 1</span>
+<span>span 2</span>
+<span>span 3</span>
+
+<form>
+    <div>
+    <label for="">nombre producto </label>
+    <input title="producto" placeholder="ingrese el nombre del producto" 
+    type="text">   
+</div>
+
+<div>
+<label for="">categoria</label>
+<select name="categoria" id="categoria">
+    <option value="1">categoria 1</option>
+    <option value="2">categoria 2</option>
+    <option value="3">categoria 3</option>
+</select>  
+
+<input type="submit" value="enviar">
+
+
+</div>
+
+<div>
+    <label for="descripcion">descripcion</label>
+
+    
+    <textarea name="descripcion" id="" cols="30" rows="10" placeholder="ingrese la descripcion del producto"></textarea>
+</div>
+
+<div>
+    <label for="" >cantidad</label>
+    <input placeholder="cantidad" min ="1" max = "10" type="number"/>
+
+</div>
+<label for="">solo lectura</label>
+<input placeholder="read-only" readonly>
+
+<div style="height: 40px; background-color: #27bdbb; width: 40px;">
+</div>
+<div class="rectangulo">
+
+</div>
+<div class="circulo">
+</div>
+<div class="cuadrado">
+</div>
+</div>
+
+    
+</form>
+
+<footer>
+    este es el pie de pagina
+   <div>
+  <img src ="prueba.jpg" alt="prueba" ="200px" height="200px">
+</div>  
+</footer>
+</body>
+
+</html>
